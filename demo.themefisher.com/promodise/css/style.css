@@ -67,7 +67,13 @@ h1,
 h2,
 .h2,
 h3,
-.h3,
+.h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #2388ED;
+}
+
 h4,
 .h4,
 h5,
@@ -91,7 +97,7 @@ img {
 }
 
 a:hover {
-  color: #635CDB;
+  color: #2388ED;
   text-decoration: none;
 }
 
@@ -136,7 +142,7 @@ h6 {
 }
 
 .f-color {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 h5.subtitle {
@@ -174,7 +180,7 @@ h5.subtitle {
 }
 
 .section-title span {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .section {
@@ -183,7 +189,7 @@ h5.subtitle {
 
 .line {
   width: 50px;
-  background: #635CDB;
+  background: #2388ED;
   height: 1px;
   margin: 10px auto;
 }
@@ -212,7 +218,7 @@ h5.subtitle {
 .btn-hero,
 .btn-white:hover {
   color: #fff !important;
-  background: #635CDB;
+  background: #2388ED;
 }
 
 .btn-hero:focus {
@@ -227,7 +233,7 @@ h5.subtitle {
 
 .btn-black:hover {
   color: #fff;
-  background: #635CDB;
+  background: #2388ED;
 }
 
 .btn-black:focus {
@@ -287,7 +293,7 @@ h5.subtitle {
 }
 
 .btn-trans-black:hover {
-  background: #635CDB !important;
+  background: #2388ED !important;
 }
 
 /*---------- COLORS ----------*/
@@ -301,7 +307,7 @@ h5.subtitle {
 }
 
 .bg-feature {
-  background-color: #635CDB;
+  background-color: #2388ED;
 }
 
 .bg-primary {
@@ -339,7 +345,7 @@ h5.subtitle {
 }
 
 .feature-overlay {
-  background: #635CDB;
+  background: #2388ED;
   opacity: .97;
 }
 
@@ -433,7 +439,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .navbar-nav a.active {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .navbar-brand img {
@@ -441,7 +447,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .btn-white {
-  background: #635CDB;
+  background: #2388ED;
   color: #fff;
 }
 
@@ -520,7 +526,7 @@ h5.subtitle {
 .dropdown-item.active,
 .dropdown-item:hover {
   background: rgba(99, 92, 219, 0.1);
-  color: #635CDB;
+  color: #2388ED;
 }
 
 button:focus {
@@ -600,7 +606,7 @@ ul.dropdown-menu li {
 
 .banner-content .subtitle {
   color: #fff;
-  background: #635CDB;
+  background: #2388ED;
   display: inline-block;
   padding: 3px 8px;
   margin-bottom: 20px;
@@ -608,7 +614,7 @@ ul.dropdown-menu li {
 }
 
 .subtitle {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .banner-content p {
@@ -705,7 +711,7 @@ INner Pages
 
 .intro-box span {
   font-size: 28px;
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .intro-cta {
@@ -775,7 +781,7 @@ ABOUT PAGE
 -------------------------*/
 .about-list2 li i {
   margin-right: 10px;
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .icon-3x {
@@ -783,7 +789,7 @@ ABOUT PAGE
 }
 
 .text-default {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .team-social li a {
@@ -824,7 +830,7 @@ HISTORY MISSION
 
 .strategy-text span {
   font-size: 61px;
-  color: #635CDB;
+  color: #2388ED;
   margin-bottom: 15px;
   display: block;
 }
@@ -838,7 +844,7 @@ HISTORY MISSION
   font-weight: 700;
   line-height: 70px;
   margin: 10px 0px;
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .counter-stat i {
@@ -905,7 +911,7 @@ HISTORY MISSION
   margin: 0 auto;
   border-radius: 100%;
   margin-bottom: 20px;
-  background: #635CDB;
+  background: #2388ED;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
@@ -930,7 +936,7 @@ HISTORY MISSION
 }
 
 .service-inner span {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 /* ================================
@@ -1012,7 +1018,7 @@ SERVICE PAGE
   display: inline-block;
   border-radius: 100%;
   transition: all .3s ease 0s;
-  color: #635CDB;
+  color: #2388ED;
   border: 1px solid #eee;
 }
 
@@ -1113,7 +1119,7 @@ PRICING PAGE
 }
 
 .carousel-indicators li.active {
-  background: #635CDB;
+  background: #2388ED;
 }
 
 .testimonial-content {
@@ -1168,7 +1174,7 @@ PRICING PAGE
 }
 
 .text-color {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 input[type=text],
@@ -1188,6 +1194,7 @@ input[type=email] {
 
 .input:focus {
   outline: none;
+  /* background-color: #f1f3f7; */
 }
 
 .form-control::-webkit-input-placeholder {
@@ -1258,7 +1265,7 @@ input[type=email] {
 
 .blog-block .read-more,
 .blog-block span {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 /* =================================
@@ -1309,7 +1316,7 @@ BLOG PAGE
   left: 0px;
   top: 0px;
   font-family: "Font Awesome 5 Free";
-  color: #635CDB;
+  color: #2388ED;
   font-weight: 900;
 }
 
@@ -1328,7 +1335,7 @@ BLOG PAGE
   top: 0px;
   margin-right: 35px;
   margin-top: 15px;
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .download a {
@@ -1341,7 +1348,7 @@ BLOG PAGE
 
 .download a i {
   margin-right: 15px;
-  color: #635CDB;
+  color: #2388ED;
 }
 
 /* ==================================
@@ -1391,7 +1398,7 @@ BLOG SINGLE
 }
 
 .footer-widget h4 span {
-  color: #635CDB;
+  color: #2388ED;
   display: block;
   font-size: 60px;
   line-height: 60px;
@@ -1435,7 +1442,7 @@ BLOG SINGLE
 }
 
 .footer-text p.mail {
-  color: #635CDB;
+  color: #2388ED;
 }
 
 .bg-main {
